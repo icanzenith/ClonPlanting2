@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="sugarcaneselection.thaib.org.clonplanting2.HomeMenuActivity">
+
+   <LinearLayout
+       android:layout_centerHorizontal="true"
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       >
+       <Button
+           android:text="ส่งโคลนอ้อย"
+           android:id="@+id/btSentClone"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+       <Button
+           android:text="รับโคลนอ้อย"
+           android:id="@+id/btReceiveClone"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+       <Button
+           android:text="ปลูกโคลน"
+           android:id="@+id/btPlantClone"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+       <Button
+       android:text="นับจำนวนที่ปลูก"
+       android:id="@+id/btCountPlanted"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
+       <Button
+           android:text="นับจำนวนต้นที่รอด"
+           android:id="@+id/btCountSurvive"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+       <Button
+           android:text="สรุปข้อมูลการส่ง"
+           android:id="@+id/btConclusionSent"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+       <Button
+           android:text="สรุปข้อมูลการรับ"
+           android:id="@+id/btConclusionReceived"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+       <Button
+           android:visibility="invisible"
+           android:text="จัดการแปลง"
+           android:id="@+id/btLandManagement"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+
+
+
+       </LinearLayout>
+
+</RelativeLayout>

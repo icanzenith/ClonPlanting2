@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="sugarcaneselection.thaib.org.sugarcanselection" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <!--
+     The following two permissions are not required to use
+     Google Maps Android API v2, but are recommended.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <!-- Camera -->
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:name=".BaseApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_edit_black_48dp"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Sugarcaneselection" >
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+
+        <provider
+            android:name=".database.DatabasesProvider"
+            android:authorities="CloneSelection" />
+
+        <activity
+            android:name=".MenuActivity"
+            android:label="@string/title_activity_menu" />
+        <activity
+            android:name=".ActivityListCorrected"
+            android:label="@string/title_activity_activity_list_corrected" />
+        <activity
+            android:name=".TakePictureActivity"
+            android:label="@string/title_activity_take_picture" />
+        <activity
+            android:name=".CorrectDataActivity"
+            android:label="@string/title_activity_correct_data" />
+        <activity
+            android:name=".ReviewActivity"
+            android:label="@string/title_activity_review" />
+        <activity
+            android:name=".Social.NetworkActivity"
+            android:label="@string/title_activity_network" />
+        <activity
+            android:name=".Social.WorkPlaceActivity"
+            android:label="@string/title_activity_work_place" />
+        <activity
+            android:name=".Social.CloneViewActivity"
+            android:label="@string/title_activity_clone_view" />
+        <activity
+            android:name=".freetest.CheckScoreTestActivity"
+            android:label="CheckScoreTest" />
+        <activity
+            android:name=".review.ReviewActivity2"
+            android:label="@string/title_activity_review_activity2"
+            >
+        </activity>
+        <activity
+            android:name=".review.ImageReviewActivity"
+            android:label="@string/title_activity_image_review" >
+        </activity>
+        <activity
+            android:name=".review.ImageFullScreenActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_image_full_screen"
+            android:theme="@style/FullscreenTheme" >
+        </activity>
+        <activity
+            android:name=".review.DetailActivity"
+            android:label="@string/title_activity_detail" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,80 @@
+<resources>
+
+    <style name="Theme.Sugarcaneselection" parent="@style/Theme.AppCompat.Light">
+        <item name="actionBarItemBackground">@drawable/selectable_background_sugarcaneselection</item>
+        <item name="popupMenuStyle">@style/PopupMenu.Sugarcaneselection</item>
+        <item name="dropDownListViewStyle">@style/DropDownListView.Sugarcaneselection</item>
+        <item name="actionBarTabStyle">@style/ActionBarTabStyle.Sugarcaneselection</item>
+        <item name="actionDropDownStyle">@style/DropDownNav.Sugarcaneselection</item>
+        <item name="actionBarStyle">@style/ActionBar.Solid.Sugarcaneselection</item>
+        <item name="actionModeBackground">@drawable/cab_background_top_sugarcaneselection</item>
+        <item name="actionModeSplitBackground">@drawable/cab_background_bottom_sugarcaneselection</item>
+        <item name="actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Sugarcaneselection</item>
+
+
+    </style>
+
+    <style name="ActionBar.Solid.Sugarcaneselection" parent="@style/Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="background">@drawable/ab_solid_sugarcaneselection</item>
+        <item name="backgroundStacked">#228b22</item>
+        <item name="backgroundSplit">#228b22</item>
+        <item name="progressBarStyle">@style/ProgressBar.Sugarcaneselection</item>
+    </style>
+
+    <style name="ActionBar.Transparent.Sugarcaneselection" parent="@style/Widget.AppCompat.Light.ActionBar">
+        <item name="background">@drawable/ab_transparent_sugarcaneselection</item>
+        <item name="progressBarStyle">@style/ProgressBar.Sugarcaneselection</item>
+    </style>
+
+    <style name="PopupMenu.Sugarcaneselection" parent="@style/Widget.AppCompat.Light.PopupMenu">
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_sugarcaneselection</item>
+    </style>
+
+    <style name="DropDownListView.Sugarcaneselection" parent="@style/Widget.AppCompat.Light.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background_sugarcaneselection</item>
+    </style>
+
+    <style name="ActionBarTabStyle.Sugarcaneselection" parent="@style/Widget.AppCompat.Light.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_indicator_ab_sugarcaneselection</item>
+    </style>
+
+    <style name="DropDownNav.Sugarcaneselection" parent="@style/Widget.AppCompat.Light.Spinner.DropDown.ActionBar">
+        <item name="android:background">@drawable/spinner_background_ab_sugarcaneselection</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_sugarcaneselection</item>
+        <item name="android:dropDownSelector">@drawable/selectable_background_sugarcaneselection</item>
+    </style>
+
+    <style name="ProgressBar.Sugarcaneselection" parent="@style/Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_sugarcaneselection</item>
+    </style>
+
+    <style name="ActionButton.CloseMode.Sugarcaneselection" parent="@style/Widget.AppCompat.Light.ActionButton.CloseMode">
+        <item name="android:background">@drawable/btn_cab_done_sugarcaneselection</item>
+    </style>
+
+    <!-- this style is only referenced in a Light.DarkActionBar based theme -->
+    <style name="Theme.Sugarcaneselection.Widget" parent="@style/Theme.AppCompat">
+        <item name="popupMenuStyle">@style/PopupMenu.Sugarcaneselection</item>
+        <item name="dropDownListViewStyle">@style/DropDownListView.Sugarcaneselection</item>
+    </style>
+
+    <style name="FullscreenTheme" parent="android:Theme.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="metaButtonBarStyle">@style/ButtonBar</item>
+        <item name="metaButtonBarButtonStyle">@style/ButtonBarButton</item>
+    </style>
+
+    <!-- Backward-compatible version of ?android:attr/buttonBarStyle -->
+    <style name="ButtonBar">
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:background">@android:drawable/bottom_bar</item>
+    </style>
+
+    <!-- Backward-compatible version of ?android:attr/buttonBarButtonStyle -->
+    <style name="ButtonBarButton" />
+
+</resources>

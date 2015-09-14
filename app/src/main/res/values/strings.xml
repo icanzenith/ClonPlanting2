@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">Clone Planting2</string>
+    <string name="title_activity_login">ClonePlanting2</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home_menu">เมนูหลัก</string>
+    <string name="title_activity_land_list">จัดการแปลง</string>
+    <string name="title_activity_land_management_menu">เลือกกิจกรรม</string>
+    <string name="title_activity_select_place_to_sent_clone">รายการโคลนที่ส่ง</string>
+    <string name="title_activity_sent_clone_scanner">สแกนเบอร์โคลน</string>
+    <string name="title_activity_select_place_to_sent">ส่งโคลนไปไหน?</string>
+
+    <string name="uri_clonetosent">content://ClonePlanting2/CloneToSent</string>
+    <string name="uri_clone">content://ClonePlanting2/Clone</string>
+    <string name="uri_land">content://ClonePlanting2/Land</string>
+    <string name="uri_planting_clone">content://ClonePlanting2/Planting</string>
+
+    <string name="url_login">http://210.1.60.178:6111/index.php/service/userlogin</string>
+    <string name="url_personaldata">http://210.1.60.178:6111/index.php/service/takeuser</string>
+
+    <string-array name="PlaceCode">
+        <!--ห้ามสลับ-->
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+    </string-array>
+    <string-array name="PlaceName">
+        <!--ห้ามสลับ-->
+        <item>มหาวิทยาลัยเกษตรศาสตร์</item>
+        <item>ศอภ.1</item>
+        <item>ศอภ.3</item>
+        <item>ศอภ.4</item>
+        <item>ศอภ.2</item>
+        <item>ศูนย์วิจัยพืชไร่ขอนแก่น</item>
+        <item>ศวพ.สุพรรณบุรี</item>
+        <item>รง.เกษตรไทย</item>
+        <item>รง.ไทยรุ่งเรือง</item>
+        <item>รง.บุรีรัมย์</item>
+        <item>ไร่ตะวันสีทอง</item>
+    </string-array>
+
+
+    <string name="title_activity_recieve_clone_list">รายการโคลนอ้อยที่รับมา</string>
+
+    <string name="title_activity_receive_clone_scanner">สแกนเพื่อรับโคลนอ้อย</string>
+    <string name="title_activity_planting_clone">การปลูกโคลน</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_create_land">สร้างแปลงที่ปลูก</string>
+    <string name="title_activity_conclusion">ConclusionActivity</string>
+    <string name="title_activity_count_clone_planted">จำนวนต้นที่ปลูกต่อแถว</string>
+    <string name="title_activity_count_survive">จำนวนต้นที่รอด</string>
+    <string name="title_activity_chart">ข้อมูลการส่งโคลน</string>
+    <string name="title_activity_chart_receive_clone">ข้อมูลการการรับโคลน</string>
+    <string name="title_activity_select_place_to_conclusion">เลือกสถานที่</string>
+    <string name="title_activity_splah_screen">SplahScreenActivity</string>
+    <string name="title_activity_home_menu2">Clone Planting 2</string>
+    <string name="title_activity_news_feed">NewsFeedActivity</string>
+    <string name="title_activity_test_chat">TestChatActivity</string>
+    <string name="title_activity_row_list">RowListActivity</string>
+    <string name="title_activity_rep_select">เลือกชุดของข้อมูล</string>
+
+    <string-array name="check_list">
+        <item>LK92-11</item>
+        <item>KK3</item>
+    </string-array>
+
+
+
+
+</resources>

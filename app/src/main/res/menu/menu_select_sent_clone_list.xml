@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="sugarcaneselection.thaib.org.clonplanting2.SentCloneListActivity">
+    <item
+        android:id="@+id/action_openQR"
+        android:orderInCategory="1"
+        android:title="เพิ่ม"
+        android:icon="@drawable/ic_add_circle_outline_white"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_upload"
+        android:orderInCategory="101"
+        android:title="อัพโหลดข้อมูลทั้งหมด"
+        android:icon="@android:drawable/ic_menu_upload"
+        app:showAsAction="withText"></item>
+    <!--<item-->
+        <!--android:id="@+id/action_reset_status"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="รีเซ็ตข้อมูล"-->
+        <!--android:icon="@android:drawable/alert_dark_frame"-->
+        <!--app:showAsAction="withText"></item>-->
+
+
+</menu>

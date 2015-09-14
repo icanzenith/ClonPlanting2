@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="sugarcaneselection.thaib.org.clonplanting2.chart.ChartReceiveCloneActivity">
+    <item android:id="@+id/action_settings" android:title="Save To Gallery"
+        android:icon="@drawable/ic_export"
+        android:orderInCategory="100" app:showAsAction="always|withText" />
+</menu>

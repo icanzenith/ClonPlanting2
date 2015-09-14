@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="sugarcaneselection.thaib.org.clonplanting2.LandManagementMenuActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:gravity="left|center_vertical"
+            android:paddingLeft="30dp"
+            android:id="@+id/btReceive"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ตรวจรับอ้อย"/>
+
+        <Button
+            android:id="@+id/btPlant"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ปลูกอ้อย"/>
+
+        <Button
+            android:id="@+id/btCountPlanted"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="นับจำนวนต้นที่ปลูก"/>
+
+        <Button
+            android:id="@+id/btCountSurvive"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="นับจำนวนต้นที่รอด"/>
+        <Button
+            android:id="@+id/btLandInformation"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="นับจำนวนข้อมูลแปลงปลูก"/>
+        <Button
+            android:id="@+id/btConclusion"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="สรุปข้อมูลแปลงปลูก"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

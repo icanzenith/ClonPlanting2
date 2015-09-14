@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="color">
+            <item>0xFFAA00AA</item>
+            <item>0xFFAAEEAA</item>
+            <item>0xFFAAEE00</item>
+            <item>0xFF00EEAA</item>
+    </integer-array>
+    <color name="actionbar_color">#FF57912B</color>
+    <color name="primarydark_color">#FF47811B</color>
+
+</resources>

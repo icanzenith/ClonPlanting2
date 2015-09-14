@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <FrameLayout
+        android:layout_centerVertical="true"
+        android:id="@+id/placeCode"
+        android:layout_margin="10dp"
+        android:background="@drawable/circle_bg"
+        android:layout_width="32dp"
+        android:layout_height="32dp">
+        <TextView
+            android:id="@+id/tvPlaceCode"
+            android:layout_gravity="center"
+            android:text="A"
+            android:textColor="@color/abc_primary_text_material_dark"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        </FrameLayout>
+
+    <TextView
+        android:layout_centerVertical="true"
+        android:id="@+id/tvPlaceName"
+        android:layout_toRightOf="@+id/placeCode"
+        android:textSize="16sp"
+        android:textColor="@color/background_material_dark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ศูนย์วิจัยพืชไร่สุพรรณ"
+        />
+
+</RelativeLayout>

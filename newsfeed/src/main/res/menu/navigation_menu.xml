@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navigation_item_1"
+            android:icon="@drawable/abc_ic_ab_back_mtrl_am_alpha"
+            android:title="Back">
+            <menu>
+                <item
+                    android:id="@+id/navigation_sub_item_1"
+                    android:icon="@drawable/abc_ic_go_search_api_mtrl_alpha"
+                    android:title="Sub Menu 1">
+                </item>
+                <item
+                    android:id="@+id/navigation_sub_item_2"
+                    android:icon="@drawable/abc_ic_menu_moreoverflow_mtrl_alpha"
+                    android:title="Sub Menu 2" />
+            </menu>
+        </item>
+        <item
+            android:id="@+id/navigation_item_2"
+            android:icon="@drawable/abc_ic_clear_mtrl_alpha"
+            android:title="NoProblem" />
+    </group>
+</menu>

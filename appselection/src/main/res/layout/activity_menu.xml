@@ -1,0 +1,178 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/relativeLayout"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="sugarcaneselection.thaib.org.sugarcanselection.MenuActivity">
+
+        <info.hoang8f.widget.FButton
+
+            android:id="@+id/bt_correctdata"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:text="เก็บข้อมูลการคัดเลือก"
+            android:textColor="@color/abc_primary_text_disable_only_material_dark"
+
+            android:textSize="32sp"
+            fbutton:buttonColor="#228b22"
+            fbutton:shadowEnabled="false"
+
+
+            />
+
+        <info.hoang8f.widget.FButton
+
+            android:id="@+id/bt_takepic"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:drawablePadding="10dp"
+            android:text="ถ่ายภาพต้นที่ได้รับการคัดเลือก"
+
+            android:textColor="@color/abc_primary_text_disable_only_material_dark"
+            android:textSize="32sp"
+            fbutton:buttonColor="#228b22"
+            fbutton:shadowEnabled="false" />
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/bt_review"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:text="รายชื่อ Clone ที่คัดแล้ว"
+            android:textColor="@color/abc_primary_text_disable_only_material_dark"
+
+            android:textSize="32sp"
+
+
+            fbutton:buttonColor="#228b22"
+            fbutton:shadowEnabled="false" />
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/bt_uploadtoserver"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:text="อัพโหลดข้อมูลขึ้น Server"
+            android:textColor="@color/abc_primary_text_disable_only_material_dark"
+
+            android:textSize="32sp"
+
+
+            fbutton:buttonColor="#228b22"
+            fbutton:shadowEnabled="false" />
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/bt_uploadpicturetoserver"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:text="อัพโหลดข้อมูล ภาพ ขึ้น Server"
+            android:textColor="@color/abc_primary_text_disable_only_material_dark"
+
+            android:textSize="32sp"
+
+            fbutton:buttonColor="#228b22"
+            fbutton:shadowEnabled="false" />
+        <info.hoang8f.widget.FButton
+            android:id="@+id/bt_checkupload"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:text="อัพโหลดข้อมูลพันธุ์เช็ค"
+            android:textColor="@color/abc_primary_text_disable_only_material_dark"
+
+            android:textSize="32sp"
+
+            fbutton:buttonColor="#228b22"
+            fbutton:shadowEnabled="false" />
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/bt_network"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:text="ข้อมูลเครือข่าย"
+            android:textColor="@color/abc_primary_text_disable_only_material_dark"
+
+            android:textSize="32sp"
+
+            fbutton:buttonColor="#228b22"
+            fbutton:shadowEnabled="false" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="300dp"
+        android:layout_alignParentTop="true">
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bg_header" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/gradient_texthightlight" />
+
+        <TextView
+            android:id="@+id/tvWorkplace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="20dp"
+            android:text=""
+            android:textColor="@color/abc_primary_text_disable_only_material_dark"
+            android:textSize="22sp" />
+
+        <ImageView
+            android:visibility="invisible"
+            android:id="@+id/profile_image"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:layout_above="@+id/tvWorkplace"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="32dp"
+            android:src="@drawable/ic_border_color_white" />
+
+
+    </RelativeLayout>
+</RelativeLayout>
+

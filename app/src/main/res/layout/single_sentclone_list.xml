@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <View
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:background="@android:color/holo_red_dark"
+        android:id="@+id/upload_status_tag"
+        android:layout_width="4dp"
+        android:layout_height="24dp"/>
+
+    <TextView
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:id="@+id/tvCloneCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CloneCode"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="30dp"
+        android:textSize="@dimen/singlelist_text_size"
+        />
+
+    <TextView
+        android:textSize="@dimen/singlelist_text_size"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp"
+        android:id="@+id/tvSentAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        />
+
+</RelativeLayout>

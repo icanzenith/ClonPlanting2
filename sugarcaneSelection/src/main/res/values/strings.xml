@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="url_login">http://210.1.60.178:6111/index.php/service/userlogin</string>
+    <string name="url_personaldata">http://210.1.60.178:6111/index.php/service/takeuser</string>
+    <string name="url_dowloadlistdata">http://210.1.60.178:6111/index.php/service/take8thmclonedata</string>
+    <string name="url_like">http://210.1.60.178:6111/index.php/service/enter4thmcloneselectionpoint</string>
+    <string name="url_friendlist">http://210.1.60.178:6111/index.php/service/takefrienduser</string>
+    <string name="url_uploadimage">http://210.1.60.178:6111/index.php/service/upload8thclonedata</string>
+
+    <string name="url_uploadcheckdata">http://210.1.60.178:6111/index.php/service/uploadcheckvarietyselectiondata</string>
+    <string name="url_downloadcheckdata">http://210.1.60.178:6111/index.php/service/takecheckvarietyselectiondata</string>
+
+    <string name="URI_MYCLONE">content://CloneSelection/myclone</string>
+    <string name="URI_Distinc">content://CloneSelection/distinc</string>
+    <string name="URI_MY_FAMILY">content://CloneSelection/myfamily</string>
+    <string name="URI_MY_STANDARDCLONE">content://CloneSelection/mystandardclone</string>
+
+
+    <string name="app_name">SugarcanSelection</string>
+    <string name="action_settings">Settings</string>
+    <string name="tag_overview">คะแนนภาพรวมด้วยสายตา</string>
+    <string name="tag_stalkperclumb">จำนวนลำต่อกอ</string>
+    <string name="tag_stalktype">ลักษณะลำต้น</string>
+    <string name="tag_stalksize">ขนาดลำ</string>
+    <string name="tag_brix">Brix</string>
+    <string name="tag_flowering">การออกดอก</string>
+    <string name="tag_numberofinternode">จำนวนข้อปล้องต่อลำ</string>
+    <string name="tag_internodelenght">ความยาวข้อปล้อง</string>
+    <string name="tag_non_flowering">ไม่ออกดอก</string>
+    <string name="tag_flowered">ออกดอก</string>
+    <string name="tag_height">ความสูง</string>
+    <string name="tag_texture">เนื้ออ้อย</string>
+    <string name="tag_disease">โรค</string>
+    <string name="tag_pest">แมลง</string>
+    <string name="tag_has_a_lot">มีมาก</string>
+    <string name="tag_has_some">มีน้อย</string>
+    <string name="tag_has_no">ไม่มี</string>
+    <string name="tag_lower_standard_height">ต่ำกว่าพันธุ์ตรวจสอบ</string>
+    <string name="tag_near_standard_height">ใกล้เคียงพันธุ์ตรวจสอบ</string>
+    <string name="tag_upper_standard_height">สูงกว่าพันธุ์ตรวจสอบ</string>
+    <string name="tag_upper_picture">รูปส่วนบน</string>
+    <string name="tag_lower_picture">รูปส่วนล่าง</string>
+    <string name="tag_full_picture">รูปเต็ม</string>
+    <string name="tag_replication_select">เลือกซ้ำที่</string>
+    <string name="tag_replication1">ซ้ำที่ 1</string>
+    <string name="tag_replication2">ซ้ำที่ 2</string>
+    <string name="tag_replication3">ซ้ำที่ 3</string>
+    <string name="tag_standard_data_spicie_name">กรุณาเลือกพันธุ์เช็ค</string>
+    <string name="tag_LK92_11">LK92-11</string>
+    <string name="tag_KK3">KK3</string>
+    <string name="tag_UT12">UT12</string>
+
+    <string-array name="listtype_array">
+        <item>Brix</item>
+        <item>จำนวนลำต่อกอ</item>
+        <item>ความสูง</item>
+        <item>ขนาดลำ</item>
+    </string-array>
+    <string-array name="stalktype_array">
+        <item>ตั้งตรง</item>
+        <item>กอแบะ</item>
+        <item>เอียง</item>
+        <item>ล้มเพราะดินยุบ</item>
+        <item>ล้ม</item>
+    </string-array>
+    <string-array name="texture_array">
+        <item>ตัน</item>
+        <item>รูเข็ม</item>
+        <item>กลวงเล็กน้อย</item>
+        <item>ฟ่าม,กลวง</item>
+    </string-array>
+    <string-array name="leaffall_array">
+        <item>ร่วงเอง</item>
+        <item>ลอกง่าย</item>
+        <item>ลอกปานกลาง</item>
+        <item>ลอกยาก</item>
+    </string-array>
+    <string-array name="leaf_pull">
+        <item>หลุดร่วงเอง</item>
+        <item>ลอกง่าย</item>
+        <item>ลอกปานกลาง</item>
+        <item>ลอกยาก</item>
+    </string-array>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="album_name">SugarCaneSelection8month</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="title_activity_activity_list_corrected">ข้อมูลพันธุ์ที่เก็บแล้ว</string>
+    <string name="title_activity_corrected_data">CorrectedDataActivity</string>
+    <string name="title_activity_take_picture">TakePictureActivity</string>
+    <string name="title_activity_correct_data">CorrectDataActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_review">ReviewActivity</string>
+    <string name="title_activity_network">NetworkActivity</string>
+
+    <string-array name="namePlace">
+        <item>มหาวิทยาลัยเกษตรศาสตร์</item>
+        <item>สอน. ภาคกลาง</item>
+        <item>สอน. ภาคตะวันออก</item>
+        <item>สอน. ภาคอีสาน</item>
+        <item>สอน. ภาคเหนือ</item>
+        <item>ศูนย์วิจัยพืชไร่ขอนแก่น</item>
+        <item>ศวพ.สุพรรณบุรี</item>
+        <item>รง.เกษตรไทย</item>
+        <item>รง.ไทยรุ่งเรือง</item>
+        <item>รง.บุรีรัมย์</item>
+        <item>คุณพรศักดิ์</item>
+    </string-array>
+    <string-array name="nameCode">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+    </string-array>
+    <string-array name="PlaceList">
+        <item>ทั้งหมด</item>
+        <item>มหาวิทยาลัยเกษตรศาสตร์</item>
+        <item>สอน. ภาคกลาง</item>
+        <item>สอน. ภาคตะวันออก</item>
+        <item>สอน. ภาคอีสาน</item>
+        <item>สอน. ภาคเหนือ</item>
+        <item>ศูนย์วิจัยพืชไร่ขอนแก่น</item>
+        <item>ศวพ.สุพรรณบุรี</item>
+        <item>โรงงานน้ำตาลเกษตรไทย</item>
+        <item>โรงงานน้ำตาลไทยรุ่งเรือง</item>
+        <item>โรงงานน้ำตาลบุรีรัมย์</item>
+        <item>คุณพรศักดิ์</item>
+    </string-array>
+    <string-array name="CodeList">
+        <item>ALL</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+    </string-array>
+    <string-array name="listAmount">
+        <item>10</item>
+        <item>30</item>
+        <item>50</item>
+        <item>100</item>
+    </string-array>
+
+    <string name="title_activity_work_place">WorkPlaceActivity</string>
+    <string name="title_section1">ข้อมูลภาพรวม</string>
+    <string name="title_section2">โคลนที่เลือกแล้ว</string>
+    <string name="title_section3">โคลนที่ไม่ได้เลือก</string>
+    <string name="title_activity_clone_view">CloneViewActivity</string>
+    <string name="finish">ใช่</string>
+    <string name="cancel">ไม่</string>
+    <string name="isfinishcorrectdata">คุณต้องการยกเลิกการบันทึกข้อมูลหรือไม่</string>
+    <string name="title_activity_review_activity2">ReviewActivity2</string>
+    <string name="title_activity_image_review">ImageReviewActivity</string>
+
+    <string name="title_activity_image_full_screen">ImageFullScreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_detail">DetailActivity</string>
+
+</resources>

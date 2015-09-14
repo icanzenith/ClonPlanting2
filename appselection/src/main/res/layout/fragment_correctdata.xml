@@ -1,0 +1,953 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/material_blue_grey_800">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+
+        <!-- ขนาดขความยาวข้อปล้อง และ ขนาดลำ-->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/container_background"
+            android:orientation="vertical"
+            android:padding="4dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="ปล้อง"
+                android:textColor="@color/accent_material_light"
+
+                android:textSize="28dp"
+                android:textStyle="bold" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="3">
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="ลำที่"
+                        android:textSize="26sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="ขนาดลำ(ซม.)"
+                        android:textSize="26sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="ความยาวปล้อง(ซม)"
+                        android:textSize="26sp"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="3">
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="1"
+                        android:textSize="26sp" />
+
+                    <EditText
+
+                        android:id="@+id/StalkSize1"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        android:layout_weight="1"
+                        android:imeOptions="actionNext"
+                        android:inputType="numberDecimal"
+                        android:textSize="26sp">
+
+                    </EditText>
+
+                    <EditText
+                        android:id="@+id/InternodeLength1"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        android:layout_weight="1"
+                        android:imeOptions="actionNext"
+                        android:inputType="numberDecimal"
+                        android:textSize="26sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="3">
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="2"
+                        android:textSize="26sp" />
+
+                    <EditText
+                        android:id="@+id/StalkSize2"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        android:layout_weight="1"
+                        android:imeOptions="actionNext"
+                        android:inputType="numberDecimal"
+                        android:textSize="26sp" />
+
+                    <EditText
+                        android:id="@+id/InternodeLength2"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        android:layout_weight="1"
+
+                        android:imeOptions="actionNext"
+                        android:inputType="numberDecimal"
+                        android:textSize="26sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="3">
+
+                    <TextView
+
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="3"
+                        android:textSize="26sp" />
+
+                    <EditText
+                        android:id="@+id/StalkSize3"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        android:layout_weight="1"
+                        android:imeOptions="actionNext"
+                        android:inputType="numberDecimal"
+                        android:textSize="26sp" />
+
+                    <EditText
+                        android:id="@+id/InternodeLength3"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        android:layout_weight="1"
+                        android:imeOptions="actionNext"
+                        android:inputType="numberDecimal"
+                        android:textSize="26sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="3">
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="4"
+                        android:textSize="26sp" />
+
+                    <EditText
+                        android:id="@+id/StalkSize4"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        android:layout_weight="1"
+                        android:imeOptions="actionNext"
+                        android:inputType="numberDecimal"
+                        android:textSize="26sp" />
+
+                    <EditText
+                        android:id="@+id/InternodeLength4"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        android:layout_weight="1"
+                        android:imeOptions="actionNext"
+                        android:inputType="numberDecimal"
+                        android:textSize="26sp" />
+                </TableRow>
+
+                <TableRow
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="3">
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="5"
+                        android:textSize="26sp" />
+
+                    <EditText
+                        android:id="@+id/StalkSize5"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        android:layout_weight="1"
+                        android:imeOptions="actionNext"
+                        android:inputType="numberDecimal"
+                        android:textSize="26sp" />
+
+                    <EditText
+                        android:id="@+id/InternodeLength5"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        android:layout_weight="1"
+                        android:imeOptions="actionNext"
+                        android:inputType="numberDecimal"
+                        android:textSize="26sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="3">
+
+                    <Button
+                        android:id="@+id/btAverage"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="ค่าเฉลี่ย" />
+
+                    <TextView
+                        android:id="@+id/StalkSizeAverage"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        android:layout_weight="1"
+                        android:textSize="26sp"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/InternodeLengthAverage"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        android:layout_weight="1"
+                        android:textSize="26sp"
+
+                        />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+
+        <!-- จำนวนลำต่อกอ  -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/container_background"
+            android:orientation="vertical"
+            android:padding="4dp">
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_weight="2"
+                    android:text="@string/tag_stalkperclumb"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/accent_material_light"
+                    android:textSize="28dp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/edtStalkperClump"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+
+            <TextView
+
+                android:id="@+id/tv_stalkperclump"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center_horizontal"
+                android:text="0 ลำ/กอ"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <SeekBar
+
+                android:id="@+id/seekBar_stalkperclump"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="@integer/maxstalk_limit"
+                android:thumb="@drawable/custom_thumb" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right|center_vertical"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/bt_decrease_StalkPerClump"
+                    style="?android:attr/buttonStyleSmall"
+
+                    android:layout_width="@dimen/bt_changevalue_width"
+                    android:layout_height="@dimen/bt_changevalue_height"
+                    android:text="-"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+
+                <Button
+                    android:id="@+id/bt_increase_StalkPerClump"
+
+                    style="?android:attr/buttonStyleSmall"
+
+                    android:layout_width="@dimen/bt_changevalue_width"
+                    android:layout_height="@dimen/bt_changevalue_height"
+                    android:text="+"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- ความสูง -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/container_background"
+            android:orientation="vertical"
+            android:padding="4dp">
+
+            <TextView
+
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="@string/tag_height"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/accent_material_light"
+                android:textSize="28dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/height_level"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/tag_lower_standard_height"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+
+                android:id="@+id/tv_height"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="0 cm"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtHeight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+
+            <SeekBar
+
+                android:id="@+id/seekBar_height"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:indeterminate="false"
+                android:max="@integer/maxheight_limit"
+                android:thumb="@drawable/custom_thumb" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right|center_vertical"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/bt_decrease_height"
+                    style="?android:attr/buttonStyleSmall"
+
+                    android:layout_width="@dimen/bt_changevalue_width"
+                    android:layout_height="@dimen/bt_changevalue_height"
+                    android:text="-"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+
+                <Button
+
+                    android:id="@+id/bt_increse_height"
+                    style="?android:attr/buttonStyleSmall"
+
+                    android:layout_width="@dimen/bt_changevalue_width"
+                    android:layout_height="@dimen/bt_changevalue_height"
+                    android:text="+"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- จำนวนข้อปล้อง -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/container_background"
+            android:orientation="vertical"
+            android:padding="4dp">
+
+            <TextView
+
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="@string/tag_numberofinternode"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/accent_material_light"
+                android:textSize="28dp"
+                android:textStyle="bold" />
+
+
+
+            <TextView
+
+                android:id="@+id/tv_internode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center_horizontal"
+                android:text="ปล้อง/ลำ"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtInternodeAmount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <SeekBar
+
+                android:id="@+id/seekBar_internode"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:indeterminate="false"
+                android:max="35"
+                android:thumb="@drawable/custom_thumb" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right|center_vertical"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/bt_decrease_InternodeAmount"
+                    style="?android:attr/buttonStyleSmall"
+
+                    android:layout_width="@dimen/bt_changevalue_width"
+                    android:layout_height="@dimen/bt_changevalue_height"
+                    android:text="-"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+
+                <Button
+
+                    android:id="@+id/bt_increase_InternodeAmount"
+                    style="?android:attr/buttonStyleSmall"
+
+                    android:layout_width="@dimen/bt_changevalue_width"
+                    android:layout_height="@dimen/bt_changevalue_height"
+                    android:text="+"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- ภาพรวม -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/container_background"
+            android:orientation="vertical"
+            android:padding="4dp">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tag_overview"
+
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/accent_material_light"
+                android:textSize="28dp"
+                android:textStyle="bold" />
+            <RatingBar
+                android:layout_gravity="center"
+                android:id="@+id/ratingBarOverView"
+                android:stepSize="0.5"
+                android:numStars="5"
+                android:max="5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+
+                android:id="@+id/tv_observe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center_horizontal"
+                android:text="0 คะแนน"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtOverView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <SeekBar
+
+                android:id="@+id/seekBar_observe"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="@integer/maxobserve"
+                android:thumb="@drawable/custom_thumb" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right|center_vertical"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/bt_decrease_observe"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="@dimen/bt_changevalue_width"
+                    android:layout_height="@dimen/bt_changevalue_height"
+                    android:text="-"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+
+                <Button
+
+                    android:id="@+id/bt_increase_observe"
+                    style="?android:attr/buttonStyleSmall"
+
+                    android:layout_width="@dimen/bt_changevalue_width"
+                    android:layout_height="@dimen/bt_changevalue_height"
+                    android:text="+"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Brix-->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/container_background"
+            android:orientation="vertical"
+            android:padding="4dp">
+
+            <TextView
+
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="@string/tag_brix"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/accent_material_light"
+                android:textSize="28dp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:id="@+id/tv_brix"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center_horizontal"
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtBrix"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <SeekBar
+
+                android:id="@+id/seekBar_brix"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:indeterminate="false"
+                android:max="@integer/maxbrix_limit"
+                android:thumb="@drawable/custom_thumb" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right|center_vertical"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/bt_decrease_Brix"
+                    style="?android:attr/buttonStyleSmall"
+
+                    android:layout_width="@dimen/bt_changevalue_width"
+                    android:layout_height="@dimen/bt_changevalue_height"
+                    android:text="-"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+
+                <Button
+                    android:id="@+id/bt_increase_Brix"
+
+                    style="?android:attr/buttonStyleSmall"
+
+                    android:layout_width="@dimen/bt_changevalue_width"
+                    android:layout_height="@dimen/bt_changevalue_height"
+                    android:text="+"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- New Data Insert ลักษณะต้น-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FF446699"
+            android:orientation="vertical">
+
+            <RadioGroup
+                android:id="@+id/rgStalkShape"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ลักษณะต้น" />
+
+                <RadioButton
+
+                    android:id="@+id/rbStalkShape0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="ไม่ได้บันทึก" />
+
+                <RadioButton
+                    android:id="@+id/rbStalkShape1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ตั้งตรง" />
+
+                <RadioButton
+                    android:id="@+id/rbStalkShape2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="เอียง" />
+
+                <RadioButton
+                    android:id="@+id/rbStalkShape3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ล้มเพราะดินยุบ" />
+
+                <RadioButton
+                    android:id="@+id/rbStalkShape4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ล้ม" />
+
+
+            </RadioGroup>
+        </LinearLayout>
+        <!-- New Data Insert ทรงกอ-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FF446699"
+            android:orientation="vertical">
+
+            <RadioGroup
+                android:id="@+id/rgClumpShape"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ทรงกอ" />
+
+                <RadioButton
+                    android:id="@+id/rbClumpShape0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="ไม่ได้บันทึก" />
+
+                <RadioButton
+                    android:id="@+id/rbClumpShape1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="กว้างน้อยกว่า 30 องศา" />
+
+                <RadioButton
+                    android:id="@+id/rbClumpShape2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="กว้างมากกว่า 30 องศา" />
+
+                <RadioButton
+                    android:id="@+id/rbClumpShape3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="แคบ" />
+
+
+            </RadioGroup>
+
+
+        </LinearLayout>
+
+        <!-- New Data Insert เนื้ออ้อย-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="#FF446699"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="เนื้ออ้อย" />
+
+            <RadioGroup
+                android:id="@+id/rgDisease"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ร่อยรอยของโรค" />
+
+                <RadioButton
+                    android:id="@+id/rbDisease0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="ไม่ได้บันทึก" />
+
+                <RadioButton
+                    android:id="@+id/rbDisease1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="สะอาด" />
+
+                <RadioButton
+                    android:id="@+id/rbDisease2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="มีร่องรอย" />
+
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/rgStuffDensity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ความหนาแน่นของเนื้ออ้อย" />
+
+                <RadioButton
+                    android:id="@+id/rbStuffDensity0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="ไม่บันทึก" />
+
+                <RadioButton
+                    android:id="@+id/rbStuffDensity1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ตัน" />
+
+                <RadioButton
+                    android:id="@+id/rbStuffDensity2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="กลวงเท่าไส้ดินสอ" />
+
+                <RadioButton
+                    android:id="@+id/rbStuffDensity3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="กลวงครึ่งหนึ่งของดินสอ" />
+
+                <RadioButton
+                    android:id="@+id/rbStuffDensity4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="กลวงมากกว่าแท่งดินสอ" />
+
+                <RadioButton
+                    android:id="@+id/rbStuffDensity5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ฟ่าม" />
+
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <!-- New Data Insert การลอกของกาบใบ-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:background="#FF446699"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="การลอกของกาบใบ" />
+
+
+            <RadioGroup
+                android:id="@+id/rgLeafSheath"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/rbLeafSheath0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="ไม่บันทึก" />
+
+                <RadioButton
+                    android:id="@+id/rbLeafSheath1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ร่วงเอง" />
+
+                <RadioButton
+                    android:id="@+id/rbLeafSheath2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ลอกง่าย" />
+
+                <RadioButton
+                    android:id="@+id/rbLeafSheath3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ลอกปานกลาง" />
+
+                <RadioButton
+                    android:id="@+id/rbLeafSheath4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ลอกยาก" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

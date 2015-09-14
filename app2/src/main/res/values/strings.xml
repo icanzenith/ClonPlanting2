@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ClonePlanting2</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_land_list">LandListActivity</string>
+    <string name="title_activity_menu_list">MenuListActivity</string>
+    <string name="title_activity_sent_clone_list">SentCloneListActivity</string>
+    <string name="title_activity_recieve_clone_list">RecieveCloneListActivity</string>
+    <string name="title_activity_planted_clone_list">PlantedCloneListActivity</string>
+    <string name="title_activity_count_clone_planted_list">CountClonePlantedListActivity</string>
+    <string name="title_activity_count_clone_survived">CountCloneSurvivedActivity</string>
+    <string name="title_activity_conclusion_list">ConclusionListActivity</string>
+    <string name="title_activity_sent_clone">SentCloneActivity</string>
+    <string name="title_activity_recieve_clone_acitivty">RecieveCloneAcitivty</string>
+    <string name="title_activity_land_information">LandInformationActivity</string>
+</resources>

@@ -1,0 +1,551 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="sugarcaneselection.thaib.org.sugarcanselection.Fragment_CorrectStandardData">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_famrep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:text="A14001"
+            android:textColor="@color/accent_material_light"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/container_background"
+            android:orientation="vertical"
+            android:padding="4dp">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:text="@string/tag_standard_data_spicie_name"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="32sp"
+                android:visibility="visible" />
+
+            <RadioGroup
+                android:id="@+id/group_checkname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:visibility="visible">
+
+
+                <RadioButton
+                    android:id="@+id/rb_lk92_11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/tag_LK92_11"
+                    android:textSize="26sp" />
+
+                <RadioButton
+                    android:id="@+id/rb_kk3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tag_KK3"
+                    android:textSize="26sp" />
+
+                <RadioButton
+                    android:id="@+id/rb_ut12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tag_UT12"
+                    android:textSize="26sp" />
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/container_background"
+            android:orientation="vertical"
+            android:padding="4dp">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="3">
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="ลำที่"
+                        android:textSize="26sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="ลำ"
+                        android:textSize="26sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="ข้อปล้อง"
+                        android:textSize="26sp"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="3">
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="1"
+                        android:textSize="26sp" />
+
+                    <EditText
+                        android:id="@+id/StalkSize1"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        android:layout_weight="1"
+                        android:imeOptions="actionNext"
+                        android:inputType="numberDecimal"
+                        android:textSize="26sp" />
+
+                    <EditText
+                        android:id="@+id/InternodeLength1"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        android:layout_weight="1"
+                        android:imeOptions="actionNext"
+                        android:inputType="numberDecimal"
+                        android:textSize="26sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="3">
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="2"
+                        android:textSize="26sp" />
+
+                    <EditText
+                        android:id="@+id/StalkSize2"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        android:layout_weight="1"
+                        android:imeOptions="actionNext"
+                        android:inputType="numberDecimal"
+                        android:textSize="26sp" />
+
+                    <EditText
+                        android:id="@+id/InternodeLength2"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        android:layout_weight="1"
+
+                        android:imeOptions="actionNext"
+                        android:inputType="numberDecimal"
+                        android:textSize="26sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="3">
+
+                    <TextView
+
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="3"
+                        android:textSize="26sp" />
+
+                    <EditText
+                        android:id="@+id/StalkSize3"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        android:layout_weight="1"
+                        android:imeOptions="actionNext"
+                        android:inputType="numberDecimal"
+                        android:textSize="26sp" />
+
+                    <EditText
+                        android:id="@+id/InternodeLength3"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        android:layout_weight="1"
+                        android:imeOptions="actionNext"
+                        android:inputType="numberDecimal"
+                        android:textSize="26sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="3">
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="4"
+                        android:textSize="26sp" />
+
+                    <EditText
+                        android:id="@+id/StalkSize4"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        android:layout_weight="1"
+                        android:imeOptions="actionNext"
+                        android:inputType="numberDecimal"
+                        android:textSize="26sp" />
+
+                    <EditText
+                        android:id="@+id/InternodeLength4"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        android:layout_weight="1"
+                        android:imeOptions="actionNext"
+                        android:inputType="numberDecimal"
+                        android:textSize="26sp" />
+                </TableRow>
+
+                <TableRow
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="3">
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="5"
+                        android:textSize="26sp" />
+
+                    <EditText
+                        android:id="@+id/StalkSize5"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        android:layout_weight="1"
+                        android:imeOptions="actionNext"
+                        android:inputType="numberDecimal"
+                        android:textSize="26sp" />
+
+                    <EditText
+                        android:id="@+id/InternodeLength5"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        android:layout_weight="1"
+                        android:imeOptions="actionNext"
+                        android:inputType="numberDecimal"
+                        android:textSize="26sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="3">
+
+                    <Button
+                        android:id="@+id/btAverage"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="ค่าเฉลี่ย" />
+
+                    <TextView
+                        android:id="@+id/StalkSizeAverage"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        android:layout_weight="1"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/InternodeLengthAverage"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        android:layout_weight="1"
+
+                        />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            tools:context="sugarcaneselection.thaib.org.sugarcanselection.FragmentStandardData">
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/container_background"
+                android:orientation="vertical"
+                android:padding="4dp">
+
+                <TextView
+
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="@string/tag_stalkperclumb"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/accent_material_light"
+                    android:textSize="28dp"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:id="@+id/tv_stalkperclump"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_gravity="center_horizontal"
+                    android:text="0 ลำ/กอ"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <SeekBar
+
+                    android:id="@+id/seekBar_stalkperclump"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:max="@integer/maxstalk_limit"
+                    android:thumb="@drawable/custom_thumb" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right|center_vertical"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/bt_decrease_StalkPerClump"
+                        style="?android:attr/buttonStyleSmall"
+
+                        android:layout_width="@dimen/bt_changevalue_width"
+                        android:layout_height="@dimen/bt_changevalue_height"
+                        android:text="-"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+
+
+                    <Button
+                        android:id="@+id/bt_increase_StalkPerClump"
+
+                        style="?android:attr/buttonStyleSmall"
+
+                        android:layout_width="@dimen/bt_changevalue_width"
+                        android:layout_height="@dimen/bt_changevalue_height"
+                        android:text="+"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/container_background"
+                android:orientation="vertical"
+                android:padding="4dp">
+
+                <TextView
+
+                    android:id="@+id/textView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="@string/tag_height"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/accent_material_light"
+                    android:textSize="28dp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+
+                    android:id="@+id/tv_height"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0 cm"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+
+                <SeekBar
+
+                    android:id="@+id/seekBar_height"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:indeterminate="false"
+                    android:max="@integer/maxheight_limit"
+                    android:thumb="@drawable/custom_thumb" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right|center_vertical"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/bt_decrease_height"
+                        style="?android:attr/buttonStyleSmall"
+
+                        android:layout_width="@dimen/bt_changevalue_width"
+                        android:layout_height="@dimen/bt_changevalue_height"
+                        android:text="-"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+
+
+                    <Button
+
+                        android:id="@+id/bt_increase_height"
+                        style="?android:attr/buttonStyleSmall"
+
+                        android:layout_width="@dimen/bt_changevalue_width"
+                        android:layout_height="@dimen/bt_changevalue_height"
+                        android:text="+"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/container_background"
+                android:orientation="vertical"
+                android:padding="4dp">
+
+                <TextView
+
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="@string/tag_brix"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/accent_material_light"
+                    android:textSize="28dp"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:id="@+id/tv_brix"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_gravity="center_horizontal"
+                    android:text="0"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <SeekBar
+
+                    android:id="@+id/seekBar_brix"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:indeterminate="false"
+                    android:max="@integer/maxbrix_limit"
+                    android:thumb="@drawable/custom_thumb" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right|center_vertical"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/bt_decrease_Brix"
+                        style="?android:attr/buttonStyleSmall"
+
+                        android:layout_width="@dimen/bt_changevalue_width"
+                        android:layout_height="@dimen/bt_changevalue_height"
+                        android:text="-"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+
+
+                    <Button
+                        android:id="@+id/bt_increase_Brix"
+
+                        style="?android:attr/buttonStyleSmall"
+
+                        android:layout_width="@dimen/bt_changevalue_width"
+                        android:layout_height="@dimen/bt_changevalue_height"
+                        android:text="+"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</ScrollView>

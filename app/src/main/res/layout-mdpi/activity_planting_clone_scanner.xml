@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvRowNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="32sp" />
+    <FrameLayout
+        android:layout_gravity="center"
+        android:id="@+id/preView_frame"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="300dp"
+        android:layout_height="300dp">
+
+        <me.dm7.barcodescanner.zxing.ZXingScannerView
+            android:layout_gravity="center"
+            android:id="@+id/camera_preview"
+            android:layout_width="300dp"
+            android:layout_height="300dp"></me.dm7.barcodescanner.zxing.ZXingScannerView>
+        <ImageButton
+            android:id="@+id/btSwitch"
+            android:src="@drawable/ic_cam_flip"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:drawingCacheQuality="auto"
+            android:scaleType="fitXY"
+            />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tvCloneCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="รอการสแกน"
+        android:textSize="32sp" />
+    <EditText
+        android:id="@+id/edtAmount"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="จำนวนต้นที่ปลูก"
+        android:inputType="number"
+
+        />
+
+    <Button
+        android:id="@+id/btOK"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="สำเร็จ" />
+</LinearLayout>

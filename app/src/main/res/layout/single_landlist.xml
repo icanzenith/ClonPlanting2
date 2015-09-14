@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="2dp"
+        android:id="@+id/tvLandName"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textSize="24sp"
+        android:textColor="@color/abc_secondary_text_material_light"
+        />
+    <TextView
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="5dp"
+        android:textStyle="bold"
+        android:id="@+id/tvLandNameFull"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textSize="16sp"
+        android:textColor="@color/button_material_dark"
+        android:text="(ไร่ตะวันสีทอง)"
+        />
+
+</LinearLayout>

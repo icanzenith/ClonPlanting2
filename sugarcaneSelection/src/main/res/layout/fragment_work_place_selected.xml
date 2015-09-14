@@ -1,0 +1,110 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sugarcaneselection.thaib.org.sugarcanselection.Social.WorkPlaceSelectedFragment">
+
+    <LinearLayout
+        android:id="@+id/searchHeaderContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF228b22"
+        android:gravity="right"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="เงื่อนไข   "
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/typeSpinner"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dialog">
+
+        </Spinner>
+
+        <Spinner
+            android:id="@+id/placeTestSpinner"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dialog">
+
+        </Spinner>
+
+        <Spinner
+            android:id="@+id/ListAmountSpinner"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dialog">
+
+        </Spinner>
+
+        <Button
+            android:id="@+id/btRunScan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ค้นหา" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tableHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/searchHeaderContainer"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="อันดับ"
+            android:textSize="22sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="เบอร์โคลน"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/tvPlace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="สถานที่"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/tvHeadType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Brix"
+            android:textSize="22sp" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tableHeader">
+
+    </ListView>
+
+
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/changefamily"
+        android:icon="@drawable/ic_navigate_before_grey600_48dp"
+        android:title="เปลี่ยนคู่ผสม"
+        app:showAsAction="always|withText">
+
+    </item>
+
+</menu>

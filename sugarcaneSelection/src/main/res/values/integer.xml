@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="maxstalk_limit">30</integer>
+    <integer name="minstalk_limit">0</integer>
+    <integer name="maxbrix_limit">300</integer>
+    <integer name="minbrix_limit">0</integer>
+    <integer name="maxheight_limit">450</integer>
+    <integer name="maxsize_limit">100</integer>
+    <integer name="maxobserve">10</integer>
+    <integer name="maxInternodeAmountLimit">35</integer>
+    <integer name="minInternodeAmountLimit">0</integer>
+    <integer name="maxInternodeLenghtLimit">350</integer>
+    <integer name="minInternodeLenghtLimit">0</integer>
+
+</resources>

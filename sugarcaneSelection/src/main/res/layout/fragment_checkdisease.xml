@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="20dp">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:id="@+id/textView14"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_blue_dark"
+            android:paddingLeft="20dp"
+            android:text="@string/tag_flowering"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="30sp" />
+
+        <RadioGroup
+
+            android:id="@+id/group_flowering"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/non_flowering"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/tag_non_flowering"
+                android:textSize="30sp" />
+
+            <RadioButton
+                android:id="@+id/flowering"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/tag_flowered"
+                android:textSize="30sp" />
+
+        </RadioGroup>
+
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@android:color/holo_blue_dark"
+            android:paddingLeft="20dp"
+            android:text="แมลงหวี่ขาว"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="30sp" />
+
+        <RadioGroup
+            android:id="@+id/group_pest_01"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textSize="30sp">
+
+            <RadioButton
+                android:id="@+id/rb_pest01_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/tag_has_no"
+                android:textSize="30sp" />
+
+            <RadioButton
+                android:id="@+id/rb_pest01_some"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/tag_has_some"
+                android:textSize="30sp" />
+
+            <RadioButton
+                android:id="@+id/rb_pest01_lot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/tag_has_a_lot"
+                android:textSize="30sp" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@android:color/holo_blue_dark"
+            android:paddingLeft="20dp"
+            android:text="หนอนเจาะลำต้น"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="30sp" />
+
+        <RadioGroup
+            android:id="@+id/group_pest_02"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <RadioButton
+                android:id="@+id/rb_pest02_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/tag_has_no"
+                android:textSize="30sp" />
+
+            <RadioButton
+                android:id="@+id/rb_pest02_some"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/tag_has_some"
+                android:textSize="30sp" />
+
+            <RadioButton
+                android:id="@+id/rb_pest02_lot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/tag_has_a_lot"
+                android:textSize="30sp" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@android:color/holo_blue_dark"
+            android:paddingLeft="20dp"
+            android:text="โรคใบจุดเหลือง"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="30sp" />
+
+        <RadioGroup
+            android:id="@+id/group_disease_01"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textSize="30sp">
+
+            <RadioButton
+                android:id="@+id/rb_disease01_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/tag_has_no"
+                android:textSize="30sp" />
+
+            <RadioButton
+                android:id="@+id/rb_disease01_some"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/tag_has_some"
+                android:textSize="30sp" />
+
+            <RadioButton
+                android:id="@+id/rb_disease01_lot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/tag_has_a_lot"
+                android:textSize="30sp" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@android:color/holo_blue_dark"
+            android:text="โรคอื่นๆ"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="30sp" />
+
+        <RadioGroup
+            android:id="@+id/group_disease_02"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <RadioButton
+                android:id="@+id/rb_disease02_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/tag_has_no"
+                android:textSize="30sp" />
+
+            <RadioButton
+                android:id="@+id/rb_disease02_some"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/tag_has_some"
+                android:textSize="30sp" />
+
+            <RadioButton
+                android:id="@+id/rb_disease02_lot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/tag_has_a_lot"
+                android:textSize="30sp" />
+
+        </RadioGroup>
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <View
+        android:layout_centerVertical="true"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:background="@color/cpb_default_color"
+        android:id="@+id/upload_status_tag"
+        android:layout_width="2dp"
+        android:layout_height="20dp"
+
+        />
+    <TextView
+        android:id="@+id/tvRowNumber"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:layout_marginLeft="20dp"
+        />
+
+    <TextView
+        android:id="@+id/tvCloneCode"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AC14007-005"
+        android:layout_marginLeft="70dp"
+        />
+
+    <TextView
+        android:id="@+id/tvPlantedAmount"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="50"/>
+
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/imageDraggable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/abc_btn_radio_to_on_mtrl_000"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        />
+
+</RelativeLayout>

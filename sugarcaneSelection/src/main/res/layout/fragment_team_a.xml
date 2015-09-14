@@ -1,0 +1,152 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="sugarcaneselection.thaib.org.sugarcanselection.freetest.FragmentTeamA">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ขนาดลำและความยาวข้อปล้อง" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3">
+
+            <TextView android:layout_weight="1" />
+
+            <TextView
+                android:layout_weight="1"
+                android:text="ลำ" />
+
+            <TextView
+                android:layout_weight="1"
+                android:text="ข้อปล้อง" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3">
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="1" />
+
+            <EditText
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_weight="1" />
+
+            <EditText
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_weight="1" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3">
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="2" />
+
+            <EditText
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_weight="1" />
+
+            <EditText
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_weight="1" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3">
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="3" />
+
+            <EditText
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_weight="1" />
+
+            <EditText
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_weight="1" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3">
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="4" />
+
+            <EditText
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_weight="1" />
+
+            <EditText
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_weight="1" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3">
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="5" />
+
+            <EditText
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_weight="1" />
+
+            <EditText
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_weight="1" />
+        </TableRow>
+
+        <TableRow></TableRow>
+
+        <TableRow></TableRow>
+
+        <TableRow></TableRow>
+
+        <TableRow></TableRow>
+    </TableLayout>
+
+</LinearLayout>

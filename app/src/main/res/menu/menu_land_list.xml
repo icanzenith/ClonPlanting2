@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="sugarcaneselection.thaib.org.clonplanting2.LandListActivity">
+    <item
+        android:id="@+id/action_add_land"
+        android:icon="@drawable/ic_add_circle_outline_white"
+        android:title="เพิ่มแปลง"
+        app:showAsAction="always" />
+</menu>

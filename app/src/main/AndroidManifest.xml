@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="sugarcaneselection.thaib.org.clonplanting2" >
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <permission
+        android:name="sugarcaneselection.thaib.org.clonplanting2.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="sugarcaneselection.thaib.org.clonplanting2.permission.C2D_MESSAGE" />
+
+    <application
+        android:name=".BaseApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_plantclone"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyC8NBCbEjQa3pue-KDjTwSZes0P261glIQ" />
+
+        <service android:name="com.parse.PushService" />
+
+        <receiver android:name="com.parse.ParseBroadcastReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.parse.ParsePushBroadcastReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.parse.push.intent.RECEIVE" />
+                <action android:name="com.parse.push.intent.DELETE" />
+                <action android:name="com.parse.push.intent.OPEN" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".test.testBoardcastReciever"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.parse.push.intent.RECEIVE" />
+                <action android:name="com.parse.push.intent.DELETE" />
+                <action android:name="com.parse.push.intent.OPEN" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.parse.GcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <!-- IMPORTANT: Change "com.parse.starter" to match your app's package name. -->
+                <category android:name="sugarcaneselection.thaib.org.clonplanting2" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name=".databases.DatabasesProvider"
+            android:authorities="ClonePlanting2"
+            android:exported="true"/>
+
+        <activity android:name=".TestActivity" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login"
+            android:theme="@style/AppFullScreenTheme" >
+        </activity>
+        <activity
+            android:name=".HomeMenuActivity"
+            android:label="@string/title_activity_home_menu" />
+        <activity
+            android:name=".scanner.PlantingCloneScannerActivity"
+            android:label="สแกนเพื่อปลูกโคลน" />
+        <activity
+            android:name=".LandListActivity"
+            android:label="@string/title_activity_land_list" />
+        <activity
+            android:name=".LandManagementMenuActivity"
+            android:label="@string/title_activity_land_management_menu" />
+        <activity
+            android:name=".SentCloneListActivity"
+            android:label="@string/title_activity_select_place_to_sent_clone" />
+        <activity
+            android:name=".scanner.SentCloneScannerActivity"
+            android:label="@string/title_activity_sent_clone_scanner" />
+        <activity
+            android:name=".SelectPlaceListActivity"
+            android:label="@string/title_activity_select_place_to_sent" />
+        <activity
+            android:name=".ReceiveCloneListActivity"
+            android:label="@string/title_activity_recieve_clone_list" />
+        <activity
+            android:name=".scanner.ReceiveCloneScannerActivity"
+            android:label="@string/title_activity_receive_clone_scanner" />
+        <activity
+            android:name=".PlantingCloneActivity"
+            android:label="@string/title_activity_planting_clone" />
+        <activity
+            android:name=".CreateLandActivity"
+            android:label="@string/title_activity_create_land" />
+        <activity
+            android:name=".ConclusionActivity"
+            android:label="@string/title_activity_conclusion" />
+        <activity
+            android:name=".CountClonePlantedActivity"
+            android:label="@string/title_activity_count_clone_planted" />
+        <activity
+            android:name=".CountSurviveActivity"
+            android:label="@string/title_activity_count_survive" />
+        <activity
+            android:name=".chart.ChartSentCloneActivity"
+            android:label="@string/title_activity_chart" />
+        <activity
+            android:name=".chart.ChartReceiveCloneActivity"
+            android:label="@string/title_activity_chart_receive_clone" />
+        <activity
+            android:name=".SelectPlaceToConclusionActivity"
+            android:label="@string/title_activity_select_place_to_conclusion" />
+        <activity
+            android:name=".SplashScreenActivity"
+            android:theme="@style/AppFullScreenTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HomeMenu2Activity"
+            android:label="@string/title_activity_home_menu2" >
+        </activity>
+        <activity
+            android:name=".test.NewsFeedActivity"
+            android:label="@string/title_activity_news_feed" >
+        </activity>
+        <activity
+            android:name=".test.TestChatActivity"
+            android:label="@string/title_activity_test_chat" >
+        </activity>
+        <activity
+            android:name=".RowListActivity"
+            android:label="@string/title_activity_row_list" >
+        </activity>
+        <activity
+            android:name=".RepSelectActivity"
+            android:label="@string/title_activity_rep_select" >
+        </activity>
+    </application>
+
+</manifest>
